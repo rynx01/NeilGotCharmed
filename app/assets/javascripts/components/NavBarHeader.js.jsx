@@ -12,37 +12,35 @@ class NavBarHeader extends React.Component {
                   
                             <ul id="menu-content" className="menu-content collapse out">
                                 
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-home fa-lg"></i> Home
-                                    </a>
-                                </li>
+                                <NavBarLinksContainer   
+                                    url="#"
+                                    className="fa fa-home fa-lg"
+                                    title=" Home"
+                                />
 
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-th-list fa-lg"></i> List
-                                    </a>
-                                </li>
+                                <NavBarLinksContainer   
+                                    url="#"
+                                    className="fa fa-th-list fa-lg"
+                                    title=" List"
+                                />
 
+                                <NavBarLinksContainer   
+                                    url="#"
+                                    className="fa fa-list-alt fa-lg"
+                                    title=" RSVP"
+                                />
 
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-list-alt fa-lg"></i> RSVP
-                                    </a>
-                                </li>
+                                <NavBarLinksContainer   
+                                    url="#"
+                                    className="fa fa-question-circle fa-lg"
+                                    title=" AboutUs"
+                                />
 
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-question-circle fa-lg"></i> About Us
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <i className="fa fa-facebook fa-lg"></i> Facebook
-                                    </a>
-                                </li>
-
+                                <NavBarLinksContainer   
+                                    url="#"
+                                    className="fa fa-facebook fa-lg"
+                                    title=" Facebook"
+                                />
 
                             </ul>
                      </div>
@@ -53,3 +51,4 @@ class NavBarHeader extends React.Component {
         );
     }
 }
+
