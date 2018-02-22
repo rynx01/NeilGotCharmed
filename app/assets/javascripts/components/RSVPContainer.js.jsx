@@ -2,9 +2,8 @@ class RSVPContainer extends React.Component {
 
     render() {
         return (
-            <div>
-
-
+            <div className="ngc-content-container">
+                <span>Hello RSVP</span>
             </div>
         );
     }
