@@ -7,8 +7,8 @@
   background-color: #2e353d;
   position: fixed;
   top: 0px;
-  width: 200px;
-  min-width: 25%;
+  width: 150px;
+  min-width: 15%;
   height: 100%;
   color: #e1ffff;
 }
@@ -113,10 +113,11 @@
 
 .ngc-content-container {
   height: 100vh;
+  width: 100vh;
 }
 
 .ngc-header-container {
-  width: 25%;
+  width: 15%;
 }
 
 
@@ -125,7 +126,6 @@
   .nav-side-menu {
     position: relative;
     width: 100%;
-    margin-bottom: 10px;
   }
   .nav-side-menu .toggle-btn {
     display: block;
@@ -167,6 +167,7 @@
   .ngc-content-container {
     width: 75%;
     height: 100vh;
+    padding-left: 15%;
   }
 }
 
