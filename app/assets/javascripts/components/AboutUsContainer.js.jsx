@@ -2,8 +2,10 @@ class AboutUsContainer extends React.Component {
 
     render() {
         return (
-            <div>               
-
+            <div className="ngc-content-container">
+                <span>Hello AboutUs</span><br/>
+                <span>Hello AboutUs</span><br/>
+                <span>Hello AboutUs</span><br/>
             </div>
         );
     }

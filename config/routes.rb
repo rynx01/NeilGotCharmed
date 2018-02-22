@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   root :to => 'home#index'
   get 'users/index'
   get 'users/show'
-  get 'lists/index', to: 'lists#index'
+  get 'list', to: 'lists#index'
   get '/rsvp', to: 'home#rsvp'
   get '/about-us', to: 'home#aboutus'
   get '/facebook', to: 'home#facebook'

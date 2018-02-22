@@ -2,8 +2,10 @@ class FacebookContainer extends React.Component {
 
     render() {
         return (
-            <div>               
-
+            <div className="ngc-content-container">
+                <span>Hello Facebook</span><br/>
+                <span>Hello Facebook</span><br/>
+                <span>Hello Facebook</span><br/>
             </div>
         );
     }
