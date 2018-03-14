@@ -1,7 +1,7 @@
 class Main extends React.Component {
     render() {
         return (
-            <div id="carouselExampleIndicators" className="ngc-content-container carousel slide" data-interval={1000}>
+            <div id="carouselExampleIndicators" className="ngc-content-container carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators" style={{ backgroundColor: `red` }}>
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
