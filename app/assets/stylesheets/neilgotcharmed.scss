@@ -29,7 +29,7 @@
   margin: 0px;
   line-height: 35px;
   cursor: pointer;
-  /*    
+  /*
     .collapsed{
        .arrow:before{
                  font-family: FontAwesome;
@@ -120,6 +120,19 @@
   width: 15%;
 }
 
+.ngc-images-slides-container {
+  width: 100vh;
+  height: 100vh;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: 100% 100%;
+}
+
+.ngc-content-others-container {
+  background-color: #434c57;
+  color: white;
+}
 
 //mobile
 @media (max-width: 767px) {
