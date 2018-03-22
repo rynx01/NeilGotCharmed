@@ -10,13 +10,13 @@ class Main extends React.Component {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100 ngc-images-slides-container" src={ './wed1.jpg' } alt="First slide" />
+                        <img className="d-block w-100 ngc-images-slides-container image-1-container" src={ './assets/wed1.jpg' } alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100 ngc-images-slides-container" src={ './wed2.jpg' } alt="Second slide" />
+                        <img className="d-block w-100 ngc-images-slides-container image-1-container" src={ './assets/wed2.jpg' } alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100 ngc-images-slides-container" src={ './wed3.png' } alt="Third slide" />
+                        <img className="d-block w-100 ngc-images-slides-container image-1-container" src={ './assets/wed3.png' } alt="Third slide" />
                     </div>
               </div>
             </div>
