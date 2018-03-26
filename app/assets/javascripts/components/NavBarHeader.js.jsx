@@ -19,15 +19,33 @@ class NavBarHeader extends React.Component {
                                 />
 
                                 <NavBarLinksContainer
-                                    url="/list"
-                                    className="fa fa-th-list fa-lg"
-                                    title=" List"
-                                />
-
-                                <NavBarLinksContainer
                                     url="/rsvp"
                                     className="fa fa-list-alt fa-lg"
                                     title=" RSVP"
+                                />
+
+                                <NavBarLinksContainer
+                                    url="/brides-squad"
+                                    className="fa fa-question-circle fa-lg"
+                                    title=" Bride's Squad"
+                                />
+
+                                <NavBarLinksContainer
+                                    url="/grooms-squad"
+                                    className="fa fa-question-circle fa-lg"
+                                    title=" Groom's Squad"
+                                />
+
+                                <NavBarLinksContainer
+                                    url="/about-us"
+                                    className="fa fa-question-circle fa-lg"
+                                    title=" AboutUs"
+                                />
+
+                                <NavBarLinksContainer
+                                    url="/about-us"
+                                    className="fa fa-question-circle fa-lg"
+                                    title=" AboutUs"
                                 />
 
                                 <NavBarLinksContainer
