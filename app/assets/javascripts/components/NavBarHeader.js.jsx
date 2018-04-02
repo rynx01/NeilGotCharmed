@@ -26,38 +26,46 @@ class NavBarHeader extends React.Component {
 
                                 <NavBarLinksContainer
                                     url="/brides-squad"
-                                    className="fa fa-question-circle fa-lg"
+                                    className="fa fa-glass fa-lg"
                                     title=" Bride's Squad"
                                 />
 
                                 <NavBarLinksContainer
                                     url="/grooms-squad"
-                                    className="fa fa-question-circle fa-lg"
+                                    className="fa fa-suitcase fa-lg"
                                     title=" Groom's Squad"
                                 />
 
+                                <li>
+                                    <a href="#venue" data-toggle="collapse" className=""><i style={{ margin: `1rem` }} className="fa fa-taxi fa-lg"></i>Venue</a>
+                                    <div id="venue" className="collapse">
+                                        <a href="/venue/church" data-toggle="collapse" className=""><i style={{ margin: `1rem` }} className="fa fa-question-circle fa-lg"></i>Venue</a>
+                                        <a href="/venue/reception" data-toggle="collapse" className=""><i style={{ margin: `1rem` }} className="fa fa-question-circle fa-lg"></i>Venue</a>
+                                    </div>
+                                </li>
+
                                 <NavBarLinksContainer
-                                    url="/about-us"
-                                    className="fa fa-question-circle fa-lg"
-                                    title=" AboutUs"
+                                    url="/photos"
+                                    className="fa fa-file-image-o fa-lg"
+                                    title=" Photos"
                                 />
 
                                 <NavBarLinksContainer
-                                    url="/about-us"
-                                    className="fa fa-question-circle fa-lg"
-                                    title=" AboutUs"
+                                    url="/registry"
+                                    className="fa fa-list-alt fa-lg"
+                                    title=" Registry"
                                 />
 
                                 <NavBarLinksContainer
-                                    url="/about-us"
-                                    className="fa fa-question-circle fa-lg"
-                                    title=" AboutUs"
+                                    url="/the-games"
+                                    className="fa fa-gamepad fa-lg"
+                                    title=" The Games"
                                 />
 
                                 <NavBarLinksContainer
-                                    url="/facebook"
-                                    className="fa fa-facebook fa-lg"
-                                    title=" Facebook"
+                                    url="/contact-us"
+                                    className="fa fa-phone fa-lg"
+                                    title=" Contact Us"
                                 />
 
                             </ul>
